@@ -6,6 +6,8 @@ const (
 	pageSize       = 4096
 	pageMetaSize   = 64 // 32-byte checksum + 4 uint64s
 	maxPayloadSize = pageSize - pageMetaSize
+
+	checksumSize = 32
 )
 
 const (
